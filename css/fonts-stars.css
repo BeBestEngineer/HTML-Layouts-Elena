@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'elena-lp-section-7';
+  src:  url('../fonts/Stars/elena-lp-section-7.eot?a3iqqr');
+  src:  url('../fonts/Stars/elena-lp-section-7.eot?a3iqqr#iefix') format('embedded-opentype'),
+    url('../fonts/Stars/elena-lp-section-7.ttf?a3iqqr') format('truetype'),
+    url('../fonts/Stars/elena-lp-section-7.woff?a3iqqr') format('woff'),
+    url('../fonts/Stars/elena-lp-section-7.svg?a3iqqr#elena-lp-section-7') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elena-lp-section-7' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e903";
+}
+.icon-star-outlined:before {
+  content: "\e904";
+}

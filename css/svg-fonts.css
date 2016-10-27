@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'elena-lp-svg-fonts';
+  src:  url('../fonts/svg-fonts/elena-lp-svg-fonts.eot?ool1rm');
+  src:  url('../fonts/svg-fonts/elena-lp-svg-fonts.eot?ool1rm#iefix') format('embedded-opentype'),
+    url('../fonts/svg-fonts/elena-lp-svg-fonts.ttf?ool1rm') format('truetype'),
+    url('../fonts/svg-fonts/elena-lp-svg-fonts.woff?ool1rm') format('woff'),
+    url('../fonts/svg-fonts/elena-lp-svg-fonts.svg?ool1rm#elena-lp-svg-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elena-lp-svg-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\e903";
+}
+.icon-star-outlined:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-google-plus:before {
+  content: "\e901";
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+
