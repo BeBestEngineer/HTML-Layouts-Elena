@@ -1,0 +1,26 @@
+.line:after,
+.line-90:after,
+.line-70:after,
+.line-brends:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #4d605a;
+    margin: 20px 0px 20px 0px;
+}
+
+.line-90:after {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.line-70:after {
+    width: 70%;
+}
+
+.line-brends:after {
+    width: 48%;
+    margin: 20px auto;
+}
+

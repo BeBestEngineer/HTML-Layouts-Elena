@@ -1,0 +1,21 @@
+.navigation-header-list .navigation-header-item {
+    display: inline-block;
+}
+
+.brends-list .brends-item {
+    display: inline-block;
+}
+
+.social-list .social-item {
+    display: inline-block;
+}
+
+/*Multiline emulation*/
+.brends-list:after,
+.navigation-header-list:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+}
+/*Multiline emulation*/

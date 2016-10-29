@@ -1,0 +1,15 @@
+.header {
+    background-color: #847c74;
+}
+
+.section-1, .section-3, .section-5 {
+    background-color: #eaeaeb;
+}
+
+.section-2, .section-4, .section-6, .footer {
+    background-color: #f5f5f5;
+}
+
+.section-7 {
+    background-color: #50c3af;
+}

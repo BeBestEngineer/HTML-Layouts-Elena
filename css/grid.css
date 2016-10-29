@@ -1,0 +1,74 @@
+.grid-2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.grid-3 {
+    float: left;
+    width: 33.3%;
+}
+
+/*Section 1*/
+.section-1 .grid-3:nth-child( 3n + 1 ) .wrapper-margin {
+    margin-right: 28px;
+}
+
+.section-1 .grid-3:nth-child( 3n + 2 ) .wrapper-margin {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.section-1 .grid-3:nth-child( 3n + 3 ) .wrapper-margin {
+    margin-left: 28px;
+}
+/*Section 1*/
+
+/*Section 2*/
+.section-2 .grid-2:nth-child( even ) .wrapper-margin {
+    margin-left: 25px;
+}
+
+.section-2 .grid-2:nth-child( odd ) .wrapper-margin {
+    margin-right: 25px;
+}
+/*Section 2*/
+
+
+/*Section 4*/
+.section-4 .grid-3:nth-child( 3n + 1 ) .wrapper-margin {
+    margin-right: 16px;
+}
+
+.section-4 .grid-3:nth-child( 3n + 2 ) .wrapper-margin {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.section-4 .grid-3:nth-child( 3n + 3 ) .wrapper-margin {
+    margin-left: 16px;
+}
+/*Section 4*/
+
+
+/*Section 5*/
+.section-5 .grid-2:nth-child( even ) .wrapper-margin {
+    margin-left: 45px;
+}
+
+.section-5 .grid-2:nth-child( odd ) .wrapper-margin {
+    margin-right: 45px;
+}
+/*Section 5*/
+
+
+/*Section 6*/
+.section-6 .grid-2:nth-child( even ) .wrapper-margin {
+    margin-left: 30px;
+}
+/*Section 6*/
+
+
+/*Section 7*/
+
+/*Section 7*/

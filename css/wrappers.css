@@ -1,0 +1,107 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-alignment-center-parent {
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper-alignment-center-childs {
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.wrapper-alignment-center-childs:before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+.footer .wrapper-alignment-center-childs::before {
+    height: 0px;
+}
+
+.wrapper-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrapper-margin {
+
+}
+
+
+.wrapper-img-icon-20 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper-img-icon-25 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.wrapper-img-icon-50 {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+}
+
+
+.wrapper-img-logo {
+    display: inline-block;
+    max-width: 150px;
+    height: auto;
+}
+
+.wrapper-img-brends {
+    display: inline-block;
+    max-width: 150px;
+    height: auto;
+}
+
+
+.wrapper-img-h-70 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+.wrapper-img-h-140,
+.wrapper-img-h-170,
+.wrapper-img-h-200 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.wrapper-img-h-140 {
+    height: 140px;
+}
+
+.wrapper-img-h-170 {
+    height: 170px;
+}
+
+.wrapper-img-h-200 {
+    height: 200px;
+}
+

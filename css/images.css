@@ -1,0 +1,48 @@
+.img-h-70 {
+    position: absolute;
+    bottom: 30px;
+    width: 50px;
+    height: auto;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.img-h-140,
+.img-h-170,
+.img-h-200 {
+    position: absolute;
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.section-2 .grid-2:nth-child( 3n + 1 ) .img-h-170 {
+    top: -70px;
+    left: -120px;
+}
+
+.section-2 .grid-2:nth-child( 3n + 2 ) .img-h-170 {
+    top: -30px;
+    left: -100px;
+}
+
+
+.section-4 .grid-3:nth-child( 3n + 1 ) .img-h-140 {
+    top: -45px;
+    left: -35px;
+}
+
+.section-4 .grid-3:nth-child( 3n + 2 ) .img-h-140 {
+    top: -95px;
+    left: 5px;
+}
+
+.section-4 .grid-3:nth-child( 3n + 3 ) .img-h-140 {
+    top: -70px;
+    left: 7px;
+}
+
+
+.section-6 .img-h-200 {
+    left: -10px;
+    bottom: 0;
+}

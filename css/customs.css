@@ -1,0 +1,39 @@
+.navigation-header {
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.header-description {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.button-section-2,
+.button-section-5 {
+    margin-top: 40px;
+}
+
+.button-section-3,
+.button-section-6 {
+    margin-top: 35px;
+}
+
+.section-2-titles,
+.section-4-titles {
+    margin-top: 40px;
+}
+
+.link-section-4 {
+    margin-top: 30px;
+}
+
+.section-3-title-1-text,
+.section-5-title-1-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrapper-img-icon-20,
+.wrapper-img-icon-25 {
+    margin-right: 10px;
+}

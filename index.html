@@ -12,295 +12,395 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/custom.css">
+
+        <!--My styles ( begin ) -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/wrappers.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/elements-dimensions.css">
+        <link rel="stylesheet" href="css/elements-background-colors.css">
+        <link rel="stylesheet" href="css/elements-background-images.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/links.css">
         <link rel="stylesheet" href="css/buttons.css">
-        <link rel="stylesheet" href="css/svg-fonts.css">
-        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/lines.css">
+        <link rel="stylesheet" href="css/images.css">
+        <!--<link rel="stylesheet" href="css/forms.css">-->
+        <link rel="stylesheet" href="css/lists.css">
+        <link rel="stylesheet" href="css/menus.css">
+        <link rel="stylesheet" href="css/customs.css">
+
+
+
+        <!--My styles ( end ) -->
+
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="wrapper-alignment-shell">
+
+    <div class="wrapper-alignment-center-parent">
         <div class="wrapper">
-            <header class="header">
-                <div class="center-alignment">
-                    <div class="header-logo">
-                        <img class="header-logo-img" src="img/header/Logo.png" alt="Elena">
+            <header class="header text-center">
+                <div class="wrapper-alignment-center-childs">
+                    <div class="logo wrapper-img-logo">
+                        <img src="img/header/logo.png" alt="Elena-logo">
                     </div>
-                    <div class="header-menu">
-                        <nav class="header-menu-list">
-                            <li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Home</span></a></li>
-                            <li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Services</span></a></li>
-                            <li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Features</span></a></li>
-                            <li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Contact</span></a></li>
-                            <!--<li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Contact</span></a></li>-->
-                            <!--<li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Contact</span></a></li>-->
-                            <!--<li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Contact</span></a></li>-->
-                            <!--<li class="header-menu-list-item"><a class="header-menu-list-item-link" href="#"><span class="header-menu-list-item-text">Contact</span></a></li>-->
+                    <div class="navigation-header text-justify">
+                        <nav class="navigation-header-list">
+                            <li class="navigation-header-item"><a href="#" class="navigation-header-link"><span class="navigation-header-text">Home</span></a></li>
+                            <li class="navigation-header-item"><a href="#" class="navigation-header-link"><span class="navigation-header-text">Services</span></a></li>
+                            <li class="navigation-header-item"><a href="#" class="navigation-header-link"><span class="navigation-header-text">Features</span></a></li>
+                            <li class="navigation-header-item"><a href="#" class="navigation-header-link"><span class="navigation-header-text">Contact</span></a></li>
                         </nav>
                     </div>
-                    <div class="header-title">
-                        Have a good day
+                    <div class="header-titles">
+                        <h1 class="header-title">Have a good day</h1>
                     </div>
                     <div class="header-description">
-                        Just for you on themeforest
+                        <span class="header-description-text">Just for you on theme forest</span>
                     </div>
-                    <a href="#" class="button-link header-button-link main-color">Get your copy now</a>
+                    <div class="button-header"><a href="#" class="button button-big"><span class="button-big-text">Get you copy now</span></a></div>
                 </div>
             </header>
-            <section class="section section-1">
-                <div class="center-alignment">
-                    <ul class="section-list">
-                        <li class="section-list-item section-list-item-1">
-                            <span class="section-list-item-img">
-                                <img class="section-1-list-item-img-img" src="img/section-1/section-1-img-1.png" alt="section-1-img">
-                            </span>
-                            <span class="section-list-item-title-1 title">
-                                Professionals
-                            </span>
-                            <span class="section-list-item-description">
-                                Lorem ipsum dolor sit amet consectetur elit.
-                            </span>
+            <section class="section-1">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-1-list clearfix">
+                        <li class="section-1-item grid-3 text-center">
+                            <div class="wrapper-margin">
+                                <div class="section-1-item-img wrapper-img-h-70">
+                                    <img class="img-h-70" src="img/section-1/section-1-img-1.png" alt="section-1-img-1">
+                                </div>
+                                <div class="section-1-titles line-90">
+                                    <h2 class="title-section title-16">
+                                        Professtionals
+                                    </h2>
+                                </div>
+                                <div class="section-1-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit ametconsectetur elit.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
-                        <li class="section-list-item section-list-item-1">
-                            <span class="section-list-item-img">
-                                <img class="section-1-list-item-img-img" src="img/section-1/section-1-img-2.png" alt="section-1-img">
-                            </span>
-                            <span class="section-list-item-title-1 title">
-                                Professionals
-                            </span>
-                            <span class="section-list-item-description">
-                                Lorem ipsum dolor sit amet consectetur elit.
-                            </span>
+                        <li class="section-1-item grid-3 text-center">
+                            <div class="wrapper-margin">
+                                <div class="section-1-item-img wrapper-img-h-70">
+                                    <img class="img-h-70" src="img/section-1/section-1-img-2.png" alt="section-1-img-2">
+                                </div>
+                                <div class="section-1-titles line-90">
+                                    <h2 class="title-section title-16">
+                                        Amateurs
+                                    </h2>
+                                </div>
+                                <div class="section-1-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit ametconsectetur elit.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
-                        <li class="section-list-item section-list-item-1">
-                            <span class="section-list-item-img">
-                                <img class="section-1-list-item-img-img" src="img/section-1/section-1-img-3.png" alt="section-1-img">
-                            </span>
-                            <span class="section-list-item-title-1 title">
-                                Professionals
-                            </span>
-                            <span class="section-list-item-description">
-                                Lorem ipsum dolor sit amet consectetur elit.
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section section-2">
-                <div class="center-alignment">
-                    <ul class="section-list">
-                        <li class="section-list-item section-list-item-2">
-
-                                <span class="section-list-item-img">
-                                    <img class="section-2-list-item-img-img" src="img/section-2/section-2-img-1.jpg" alt="section-2-img">
-                                </span>
-                                <h3 class="section-list-item-title-2 title">
-                                    Responsive email template
-                                </h3>
-                                <span class="section-list-item-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                </span>
-                                <span class="section-list-item-button">
-                                     <a href="#" class="button-link section-button-link main-color">Read more</a>
-                                </span>
-
-                        </li>
-                        <li class="section-list-item section-list-item-2">
-
-                                <span class="section-list-item-img">
-                                    <img class="section-2-list-item-img-img" src="img/section-2/section-2-img-2.jpg" alt="section-2-img">
-                                </span>
-                                <h3 class="section-list-item-title-2 title">
-                                    Responsive email template
-                                </h3>
-                                <span class="section-list-item-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                                </span>
-                                <span class="section-list-item-button">
-                                    <a href="#" class="button-link section-button-link main-color">Read more</a>
-                                </span>
-
+                        <li class="section-1-item grid-3 text-center">
+                            <div class="wrapper-margin">
+                                <div class="section-1-item-img wrapper-img-h-70">
+                                    <img class="img-h-70" src="img/section-1/section-1-img-3.png" alt="section-1-img-3">
+                                </div>
+                                <div class="section-1-titles line-90">
+                                    <h2 class="title-section title-16">
+                                        For ever one
+                                    </h2>
+                                </div>
+                                <div class="section-1-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit ametconsectetur elit.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section section-3">
-                <div class="center-alignment">
-                    <h3 class="section-list-item-line title">
-                        <span class="section-list-item-line-icon">
-                            <img src="img/section-3/section-3-title-icon.png" alt="title-3-icon">
-                        </span>
-                        <span class="section-list-item-title-3-text">
-                            Fully suported template
-                        </span>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem commodo vitae. Ut semper semper lacus. Suspendisse convallis vel tellus at consectetur. Aenean risus arcu</p>
-                    <span class="section-list-item-button">
-                        <a href="#" class="button-link section-button-link main-color">Read more</a>
-                    </span>
-                </div>
-            </section>
-            <section class="section section-4">
-                <div class="center-alignment">
-                    <ul class="section-list">
-                        <li class="section-list-item section-list-item-4">
-                                <span class="section-list-item-img">
-                                    <img class="section-4-list-item-img-img" src="img/section-4/section-4-img-1.jpg"
-                                         alt="section-4-img">
-                                </span>
-                            <h3 class="section-list-item-title-4 title">
-                                Fully Layered PSD
-                            </h3>
-                                <span class="section-list-item-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </span>
-                            <a href="#" class="section-link">Check this out ></a>
+            <section class="section-2">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-2-list">
+                        <li class="section-2-item grid-2">
+                            <div class="wrapper-margin">
+                                <div class="wrapper-img-h-170">
+                                    <img class="img-h-170" src="img/section-2/section-2-img-1.jpg" alt="section-2-img-1">
+                                </div>
+                                <div class="section-2-titles line">
+                                    <h2 class="title-section title-18">
+                                        Responsive email template
+                                    </h2>
+                                </div>
+                                <div class="section-2-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis
+                                    </span>
+                                </div>
+                                <div class="button-section-2"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
+                            </div>
                         </li>
-                        <li class="section-list-item section-list-item-4">
-                                <span class="section-list-item-img">
-                                    <img class="section-4-list-item-img-img" src="img/section-4/section-4-img-2.jpg"
-                                         alt="section-4-img">
-                                </span>
-                            <h3 class="section-list-item-title-4 title">
-                                Fully Layered PSD
-                            </h3>
-                                <span class="section-list-item-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </span>
-                            <a href="#" class="section-link">Check this out ></a>
-                        </li>
-                        <li class="section-list-item section-list-item-4">
-                                <span class="section-list-item-img">
-                                    <img class="section-4-list-item-img-img" src="img/section-4/section-4-img-3.jpg"
-                                         alt="section-4-img">
-                                </span>
-                            <h3 class="section-list-item-title-4 title">
-                                Fully Layered PSD
-                            </h3>
-                                <span class="section-list-item-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </span>
-                            <a href="#" class="section-link">Check this out ></a>
+                        <li class="section-2-item grid-2">
+                            <div class="wrapper-margin">
+                                <div class="wrapper-img-h-170">
+                                    <img class="img-h-170" src="img/section-2/section-2-img-2.jpg" alt="section-2-img-2">
+                                </div>
+                                <div class="section-2-titles line">
+                                    <h2 class="title-section title-18">
+                                        Responsive email template
+                                    </h2>
+                                </div>
+                                <div class="section-2-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis
+                                    </span>
+                                </div>
+                                <div class="button-section-2"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section section-5">
-                <div class="center-alignment">
-                    <ul class="section-list">
-                        <li class="section-list-item section-list-item-5">
-                            <h3 class="section-list-item-line title">
-                                <span class="section-list-item-line-icon">
-                                    <img src="img/section-5/section-5-title-icon-1.png" alt="title-5-icon-1">
-                                </span>
-                                <span class="section-list-item-title-5-text">
-                                    Send it now
-                                </span>
-                            </h3>
-                            <p class="section-list-item-description">
-                            section-list-item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.
-                            </p>
-                            <span class="section-list-item-button">
-                                <a href="#" class="button-link section-button-link main-color">Read more</a>
-                            </span>
-                        </li>
-                        <li class="section-list-item section-list-item-5">
-                            <h3 class="section-list-item-line title">
-                                <span class="section-list-item-line-icon">
-                                    <img src="img/section-5/section-5-title-icon-2.png" alt="title-5-icon-1">
-                                </span>
-                                <span class="section-list-item-title-5-text">
-                                    Very nice to see
-                                </span>
-                            </h3>
-                            <p class="section-list-item-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.
-                            </p>
-                            <span class="section-list-item-button">
-                                <a href="#" class="button-link section-button-link main-color">Read more</a>
-                            </span>
+            <section class="section-3">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-3-list">
+                        <li class="section-3-item">
+                            <div class="section-3-titles line-70">
+                                <h2 class="title-section title-18">
+                                    <span class="wrapper-img-icon-25">
+                                        <img src="img/section-3/section-3-title-icon.png" alt="section-3-title-1-icon-img">
+                                    </span>
+                                    <span class="section-3-title-1-text">
+                                        Fully supported template
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="section-3-descriptions">
+                                <p class="paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales
+                                    risus, a adipiscing lorem commodo vitae. Ut semper semper lacus. Suspendisse convallis
+                                    vel tellus at consectetur. Aenean risus arcu
+                                </p>
+                            </div>
+                            <div class="button-section-3"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section section-6">
-                <div class="center-alignment">
-                    <ul class="section-list">
-                        <li class="section-list-item section-list-item-6">
-                            <span class="section-list-item-img">
-                                <img class="section-6-list-item-img-img" src="img/section-6/section-6-img-1.jpg" alt="section-6-img-1">
-                            </span>
+            <section class="section-4">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-4-list clearfix">
+                        <li class="section-4-item grid-3">
+                            <div class="wrapper-margin">
+                                <div class="wrapper-img-h-140">
+                                    <img class="img-h-140" src="img/section-4/section-4-img-1.jpg" alt="section-4-img-1">
+                                </div>
+                                <div class="section-4-titles line">
+                                    <h2 class="title-section title-16">
+                                        Fully layered PSD
+                                    </h2>
+                                </div>
+                                <div class="section-4-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </span>
+                                </div>
+                                <div class="link-section-4"><a href="#" class="link"><span class="link-section-4-text">Check this out ></span></a></div>
+                            </div>
                         </li>
-                        <li class="section-list-item section-list-item-6">
-                            <h3 class="section-list-item-line title">
-                                <span class="section-list-item-title-6-text">
-                                    Just for you on themeforest
-                                </span>
-                            </h3>
-                            <p class="section-list-item-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis risus, in mattis erat convallis egestas.
-                            </p>
-                            <span class="section-list-item-button">
-                                <a href="#" class="button-link section-button-link main-color">Read more</a>
-                            </span>
+                        <li class="section-4-item grid-3">
+                            <div class="wrapper-margin">
+                                <div class="wrapper-img-h-140">
+                                    <img class="img-h-140" src="img/section-4/section-4-img-2.jpg" alt="section-4-img-1">
+                                </div>
+                                <div class="section-4-titles line">
+                                    <h2 class="title-section title-16">
+                                        Fully layered PSD
+                                    </h2>
+                                </div>
+                                <div class="section-4-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </span>
+                                </div>
+                                <div class="link-section-4"><a href="#" class="link"><span class="link-section-4-text">Check this out ></span></a></div>
+                            </div>
+                        </li>
+                        <li class="section-4-item grid-3">
+                            <div class="wrapper-margin">
+                                <div class="wrapper-img-h-140">
+                                    <img class="img-h-140" src="img/section-4/section-4-img-3.jpg" alt="section-4-img-1">
+                                </div>
+                                <div class="section-4-titles line">
+                                    <h2 class="title-section title-16">
+                                        Fully layered PSD
+                                    </h2>
+                                </div>
+                                <div class="section-4-descriptions">
+                                    <span class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </span>
+                                </div>
+                                <div class="link-section-4"><a href="#" class="link"><span class="link-section-4-text">Check this out ></span></a></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section section-7 main-color">
-                <div class="center-alignment">
-                    <div class="section-7-title">
-                        <h4 class="section-list-item-line title">
-                            <span class="icon-star-outlined"></span>
-                            <span class="section-list-item-title-7-text">
+            <section class="section-5">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-5-list clearfix">
+                        <li class="section-5-item grid-2">
+                            <div class="wrapper-margin">
+                                <div class="section-5-titles line">
+                                    <h2 class="title-section title-18">
+                                        <span class="wrapper-img-icon-20">
+                                            <img src="img/section-5/section-5-title-icon-1.png" alt="section-5-title-1-icon-img">
+                                        </span>
+                                        <span class="section-5-title-1-text">
+                                            Send it now
+                                        </span>
+                                    </h2>
+                                </div>
+                                <div class="section-5-descriptions">
+                                    <p class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.
+                                    </p>
+                                </div>
+                                <div class="button-section-5"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
+                            </div>
+                        </li>
+                        <li class="section-5-item grid-2">
+                            <div class="wrapper-margin">
+                                <div class="section-5-titles line">
+                                    <h2 class="title-section title-18">
+                                        <span class="wrapper-img-icon-20">
+                                            <img src="img/section-5/section-5-title-icon-2.png" alt="section-5-title-1-icon-img">
+                                        </span>
+                                        <span class="section-5-title-1-text">
+                                            Send it now
+                                        </span>
+                                    </h2>
+                                </div>
+                                <div class="section-5-descriptions">
+                                    <p class="paragraph">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.
+                                    </p>
+                                </div>
+                                <div class="button-section-5"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-6">
+                <div class="wrapper-alignment-center-childs">
+                    <ul class="section-6-list">
+                        <li class="section-6-item clearfix">
+                            <div class="grid-2">
+                                <div class="wrapper-img-h-200">
+                                    <img class="img-h-200" src="img/section-6/section-6-img-1.jpg" alt="section-6-img-1">
+                                </div>
+                            </div>
+                            <div class="grid-2">
+                                <div class="wrapper-margin">
+                                    <div class="section-6-titles line">
+                                        <h2 class="title-section title-18">
+                                            Just for you on themeforest
+                                        </h2>
+                                    </div>
+                                    <div class="section-6-descriptions">
+                                        <p class="paragraph">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis risus, in mattis erat convallis egestas.
+                                        </p>
+                                    </div>
+                                    <div class="button-section-6"><a href="#" class="button button-middle"><span class="button-middle-text">Read more</span></a></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-7 text-center">
+                <div class="wrapper-alignment-center-childs">
+                    <div class="section-7-titles line-brends">
+                        <h3 class="section-7-title-1">
+                            <span class="icon-star-outlined icon-font-16"></span>
+                            <span class="title-section title-15">
                                 This template was featured on
                             </span>
-                        </h4>
+                        </h3>
                     </div>
-                    <div class="header-menu">
-                        <ul class="section-list-7">
-                            <li class="section-list-item section-list-7-item"><img src="img/section-7/section-7-img-1.png" alt="section-list-7-item-img"></li>
-                            <li class="section-list-item section-list-7-item"><img src="img/section-7/section-7-img-2.png" alt="section-list-7-item-img"></li>
-                            <li class="section-list-item section-list-7-item"><img src="img/section-7/section-7-img-3.png" alt="section-list-7-item-img"></li>
-                            <li class="section-list-item section-list-7-item"><img src="img/section-7/section-7-img-4.png" alt="section-list-7-item-img"></li>
+                    <div class="brends text-justify">
+                        <ul class="brends-list">
+                            <li class="brends-item">
+                                <div class="wrapper-img-brends">
+                                    <img class="wrapper-img-brends-img" src="img/section-7/section-7-img-1.png" alt="brend">
+                                </div>
+                            </li>
+                            <li class="brends-item">
+                                <div class="wrapper-img-brends">
+                                    <img class="wrapper-img-brends-img" src="img/section-7/section-7-img-2.png" alt="brend">
+                                </div>
+                            </li>
+                            <li class="brends-item">
+                                <div class="wrapper-img-brends">
+                                    <img class="wrapper-img-brends-img" src="img/section-7/section-7-img-3.png" alt="brend">
+                                </div>
+                            </li>
+                            <li class="brends-item">
+                                <div class="wrapper-img-brends">
+                                    <img class="wrapper-img-brends-img" src="img/section-7/section-7-img-4.png" alt="brend">
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </section>
-
-                <div class="empty"></div>
+            <div class="empty"></div>
         </div>
         <footer class="footer">
-                <div class="center-alignment">
-                    <div class="footer-copyright"><span>Elenea ©</span> copyright 2013 - Unsubscribe here</div>
-                    <div class="footer-social-icons">
-                        <ul class="footer-social-icons-list">
-                            <li class="footer-social-icons-item">
-                                <a href="#" class="footer-social-icons-item-link facebook facebook">
-                                    <span class="icon-google-plus"></span>
-                                </a>
-                            </li>
-                            <li class="footer-social-icons-item">
-                                <a href="#" class="footer-social-icons-item-link google-plus">
-                                    <span class="icon-facebook"></span>
-                                </a>
-                            </li>
-                            <li class="footer-social-icons-item">
-                                <a href="#" class="footer-social-icons-item-link twitter">
-                                    <span class="icon-twitter"></span>
-                                </a>
-                            </li>
-                        </ul>
+            <div class="wrapper-alignment-center-childs clearfix">
+                <div class="footer-descriptions grid-2">
+                    <div class="wrapper-table">
+                        <div class="wrapper-table-cell text-left">
+                            <p class="paragraph-footer">
+                                <span class="paragraph-footer-first-word">Elenea</span> © copyright 2013 - Unsubscribe here
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <div class="social grid-2">
+                    <div class="wrapper-table">
+                        <div class="wrapper-table-cell text-right">
+                            <ul class="social-list">
+                                <li class="social-item">
+                                    <a class="social-link" href="#">
+                                        <span class="icon-google-plus icon-font-20"></span>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a class="social-link" href="#">
+                                        <span class="icon-facebook  icon-font-20"></span>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a class="social-link" href="#">
+                                        <span class="icon-twitter icon-font-20"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
-
-
-
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
