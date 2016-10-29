@@ -1,3 +1,4 @@
+/*Common*/
 .grid-2 {
     float: left;
     width: 50%;
@@ -8,6 +9,7 @@
     float: left;
     width: 33.3%;
 }
+/*Common*/
 
 /*Section 1*/
 .section-1 .grid-3:nth-child( 3n + 1 ) .wrapper-margin {
@@ -67,8 +69,3 @@
     margin-left: 30px;
 }
 /*Section 6*/
-
-
-/*Section 7*/
-
-/*Section 7*/
