@@ -1,4 +1,4 @@
-# [Elena landingpage (пример вёрстки) ](https://html5boilerplate.com)
+# Elena landingpage (пример вёрстки)
 
 ## Описание
 
@@ -18,8 +18,8 @@
 * `text.css` - оформление шрифтов
 * `elements-dimensions.css` - размеры блоков проекта
 * `elements-background-colors.css` - цвета заливки блоков
-* `elements-background-images.css` - стили для изображений подключённых через свойство ```scss background ```
-* `images.css` - стили для изображений подключённых через тег ```html <img> ```
+* `elements-background-images.css` - стили для изображений подключённых через свойство ```background```
+* `images.css` - стили для изображений подключённых через тег ```<img>```
 * `forms.css` - формы входа, обратной связи и другие
 * `lists.css` - общие стили списков
 * `menus.css` - меню навигации по сайту и другие меню
@@ -28,7 +28,7 @@
 * `geometric-shapes.css` - стили геометрических фигур используемых в проекте
 * `customs.css` - стили завершающие внешний вид проекта
 
-Также в шаблоне **HTML5 Boilerplate** созданы стили, описание которых можно найти в оффициальной документации ( [HTML5 Boilerplate](https://html5boilerplate.com) ):
+Также в шаблоне **HTML5 Boilerplate** созданы стили, описание которых можно найти в оффициальной документации  ( [HTML5 Boilerplate](https://html5boilerplate.com) ):
 
 * `main.css`
 * `normalize.css`
