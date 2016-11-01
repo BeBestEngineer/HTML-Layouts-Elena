@@ -1,4 +1,4 @@
-# Elena landingpage (пример вёрстки)
+# Elena landing page (пример вёрстки)
 
 ## Описание
 
